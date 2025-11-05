@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* PROJECT SECTION */
+.projects-section {
+  position: relative;
+  height: 100vh;
+  background-image: url('images/new.jpg'); /* ✅ your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+
+
+/* Text styling */
+.projects-section .content {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  color: #fff;
+  padding: 20px;
+}
+
+.projects-section h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.projects-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  margin: 0;
+}
+
+/* Bedroom Section */
+.bedroom-section h2 {
+  font-size: 2.5rem;
+  color: #111;
+}
+
+.bedroom-section p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Accordion styling */
+.accordion-button {
+  background-color: transparent;
+  color: #333;
+  font-size: 1.05rem;
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  filter: invert(0.4);
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.accordion-body {
+  color: #666;
+}
+
+.img-fluid {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+/* Kitchen Section */
+.kitchen-section h2 {
+  font-size: 2.5rem;
+  color: #111;
+}
+
+.kitchen-section p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.kitchen-section .accordion-button {
+  background-color: transparent;
+  color: #333;
+  font-size: 1.05rem;
+  box-shadow: none;
+}
+
+.kitchen-section .accordion-button::after {
+  filter: invert(0.4);
+}
+
+.kitchen-section .accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.kitchen-section .accordion-body {
+  color: #666;
+}
+
+
+/* Office Section */
+.office-section h2 {
+  font-size: 2.5rem;
+  color: #111;
+}
+
+.office-section p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.office-section .accordion-button {
+  background-color: transparent;
+  color: #333;
+  font-size: 1.05rem;
+  box-shadow: none;
+}
+
+.office-section .accordion-button::after {
+  filter: invert(0.4);
+}
+
+.office-section .accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.office-section .accordion-body {
+  color: #666;
+}
+
+
+.footer-section {
+  background-image: url('46c001e1-05dc-4ce0-ba87-3045d341f07f.png'); /* Your uploaded image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.footer-section h4 {
+  font-weight: bold;
+}
+
+.footer-section p {
+  line-height: 1.7;
+}
+
+.footer-section i {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-section i:hover {
+  color: #f1c40f;
+}
+/* =====================================
+   RESPONSIVE DESIGN (MOBILE & TABLET)
+   ===================================== */
+@media (max-width: 991px) {
+  .contact-section .row {
+    flex-direction: column;
+  }
+
+  .contact-section .contact-details,
+  .contact-section form,
+  .contact-section iframe {
+    padding: 20px 0;
+  }
+
+  .contact-section .contact-details {
+    text-align: center;
+  }
+
+  .contact-section .social-icons {
+    text-align: center;
+  }
+
+  .contact-section iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .contact-section .form-control {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .contact-section button {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+  .contact-section {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .contact-section h3,
+  .contact-section h4 {
+    font-size: 1.5rem;
+  }
+
+  .contact-section p {
+    font-size: 0.95rem;
+  }
+}

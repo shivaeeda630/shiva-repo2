@@ -1,0 +1,129 @@
+.testimonials-section {
+  background: url('71c40063-a8f9-41c0-a0f5-8fa80bfc9dea.png') no-repeat center center/cover;
+  position: relative;
+  height: 80vh; /* adjust as needed */
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+/* dark overlay effect */
+.testimonials-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://i.pinimg.com/736x/0f/97/71/0f977161283a281d9cff79c7aa2f5cb5.jpg');
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+
+.testimonials-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.testimonials-section h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.testimonials-section p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-top: 15px;
+  
+}
+
+
+.textp {
+    margin-left: 50px;
+    margin-top: 20px;
+    bottom: 20px;
+}
+
+
+
+.testimonial-section {
+  background-color: #fff;
+}
+
+.testimonial-text {
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1.8;
+}
+
+.object-fit-cover {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 992px) {
+  .testimonial-section .d-flex {
+    flex-direction: column;
+  }
+  .testimonial-section img {
+    width: 100%;
+  }
+}
+
+
+/* =====================================
+   RESPONSIVE DESIGN (MOBILE & TABLET)
+   ===================================== */
+@media (max-width: 991px) {
+  .contact-section .row {
+    flex-direction: column;
+  }
+
+  .contact-section .contact-details,
+  .contact-section form,
+  .contact-section iframe {
+    padding: 20px 0;
+  }
+
+  .contact-section .contact-details {
+    text-align: center;
+  }
+
+  .contact-section .social-icons {
+    text-align: center;
+  }
+
+  .contact-section iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .contact-section .form-control {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .contact-section button {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+  .contact-section {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .contact-section h3,
+  .contact-section h4 {
+    font-size: 1.5rem;
+  }
+
+  .contact-section p {
+    font-size: 0.95rem;
+  }
+}
